@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #2ecc71;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+svg {
+  margin: 0 10px;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
