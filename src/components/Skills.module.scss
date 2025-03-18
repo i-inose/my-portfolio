@@ -1,0 +1,26 @@
+.skills {
+  text-align: center;
+  padding: 40px 20px;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; // アイテム間の間隔
+  }
+  li {
+    font-size: 1.2rem;
+    background: #1a1a1a; // 少し明るい黒でカード風
+    padding: 10px 20px;
+    border-radius: 20px; // 丸みでスタイリッシュに
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.1); // ホバーで拡大
+    }
+  }
+}

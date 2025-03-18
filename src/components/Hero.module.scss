@@ -1,0 +1,28 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-in; // フェードインアニメーション
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
